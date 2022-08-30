@@ -1,5 +1,6 @@
 body{
     font-family: Poppins, sans-serif;
+    margin: 0;
 }
 h1{
     font-weight: 40px;
@@ -15,4 +16,24 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    text-align: justify;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700p;
+    padding: 10px 30px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 10px;
 }
